@@ -10,9 +10,9 @@
         <!-- .col start -->
         <div class="col-lg-3">
 
-            <?php
+            <?php 
                 include __DIR__ . './layout/menu.php';
-            ?>     
+            ?>
 
         </div>
         <!-- .col end -->

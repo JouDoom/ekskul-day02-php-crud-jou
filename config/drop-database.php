@@ -4,9 +4,9 @@
     require_once('connection.php');
 
     // Create database
-    $sql = "CREATE DATABASE sacode_course";
+    $sql = "DROP DATABASE sacode_course";
     if (mysqli_query($conn, $sql)) {
-        echo "Database created successfully";
+        echo "Database dropped successfully";
     } else {
         echo "Error creating database: " . mysqli_error($conn);
     }
